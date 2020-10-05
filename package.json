@@ -52,6 +52,7 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
+    "react-device-detect": "^1.14.0",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
@@ -146,11 +147,19 @@
     ]
   },
   "devDependencies": {
-    "cordova-android": "^9.0.0"
+    "cordova-android": "^9.0.0",
+    "cordova-custom-config": "^5.1.0",
+    "cordova-plugin-android-permissions": "^1.1.0",
+    "cordova-plugin-device": "^2.0.3"
   },
   "cordova": {
     "platforms": [
       "android"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-custom-config": {},
+      "cordova-plugin-android-permissions": {}
+    }
   }
 }
