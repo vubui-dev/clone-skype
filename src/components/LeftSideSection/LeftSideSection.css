@@ -1,0 +1,29 @@
+.left-side {
+  background-color: #f5f8fd;
+  width: 350px;
+  height: 100vh;
+  min-width: 320px;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item:hover * {
+  color: #43b6c5;
+}
+
+.menu-item--active {
+  transition: all 0.5s;
+  color: #3396c7;
+}
+
+.menu-item.menu-item--active:hover * {
+  color: #3396c7;
+}
+
+@media (max-width:767px) {
+  .left-side {
+    width: 100%;
+  }
+}

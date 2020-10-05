@@ -1,0 +1,7 @@
+.add-contact-invite-method {
+  cursor: pointer;
+}
+
+.add-contact-invite-method:hover * {
+  color: #40a8c4;
+}

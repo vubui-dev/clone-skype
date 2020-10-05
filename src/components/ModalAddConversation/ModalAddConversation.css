@@ -1,0 +1,6 @@
+.create-method-btn {
+  cursor: pointer;
+}
+.create-method-btn:hover * {
+  color: #40a8c4;
+}

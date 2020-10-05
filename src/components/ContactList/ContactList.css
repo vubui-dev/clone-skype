@@ -1,0 +1,16 @@
+.contact-item {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.contact-item--active {
+  background-color: rgba(95, 190, 214, 0.4);
+}
+
+.contact-item:hover {
+  background-color: rgba(173, 236, 252, 0.4);
+}
+
+.contact-item.contact-item--active:hover {
+  background-color: rgba(95, 190, 214, 0.4);
+}

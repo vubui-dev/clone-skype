@@ -1,0 +1,27 @@
+.info-user-item {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  cursor: pointer;
+}
+
+.info-user-item * {
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.info-user-item:hover * {
+  color: #40a8c4;
+}
+
+.info-user-item > svg {
+  margin-right: 1rem;
+}
+
+.info-user-right {
+  position: absolute;
+  right: 1.2rem;
+  color: #888;
+  font-weight: 500;
+}

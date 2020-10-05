@@ -1,0 +1,49 @@
+.dashboard-user {
+  position: relative;
+}
+.dashboard-user img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.dashboard-user-upto input {
+  border: none;
+  outline: none;
+  padding-left: 1.6rem;
+}
+.dashboard-user-upto input:focus {
+  text-align: center;
+  box-shadow: none;
+}
+
+.dashboard-user-upto svg {
+  color: #888;
+}
+
+.dashboard-user-upto svg:hover {
+  color: #333;
+}
+
+.dashboard-user-btn {
+  margin: 1.5rem 0 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #333;
+  color: #fff;
+
+  padding: 0.55rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dashboard-user-hint {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

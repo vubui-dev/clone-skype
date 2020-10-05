@@ -1,0 +1,51 @@
+.btn-chat-list {
+  display: flex;
+  align-items: center;
+}
+
+.btn-chat-list div {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.input-message {
+  padding: 0.3rem 0.55rem;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.input-message .input-emoji {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-message .input-emoji:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.input-message svg {
+  cursor: pointer;
+}
+
+.input-message input {
+  border: 0;
+  outline: none;
+}
+.input-message input:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+.emoji-mart-preview {
+  display: none;
+}
